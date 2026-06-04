@@ -7,7 +7,6 @@ export class Panel {
   container: any;
   inputStep: any;
   inputWidth: any;
-  // inputMax: any;
   inputMin: any;
   button: HTMLElement | null;
 
@@ -36,13 +35,6 @@ export class Panel {
     
     this.button.addEventListener('click', () => this.getValues(inputMin.value));
     return inputMin.value;
-    // const sliderUpdate = new Slider(inputMin.value, inputMax.value, inputStep.value);
-
-    // function validation(elem: Element | null) {
-      // if (elem == inputMin) {
-        // elem.value = 
-      // }
-    // }
   }
 
   createInput(parent?: any, element?: any, name?: string, placeholder?: string, className?: string) {
