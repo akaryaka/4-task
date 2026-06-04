@@ -1,0 +1,4 @@
+// методы
+export class SliderController {
+
+}
